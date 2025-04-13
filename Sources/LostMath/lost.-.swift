@@ -17,29 +17,22 @@
 /// El Machine 🤖
 
 ///Array
-extension Array {
-
-    public
-    static
-    func - (p: Self, index: Index) -> Self {
-        var copy = p
-        copy.remove(at: index)
-        return copy
-    }
-
-}
-
 extension Array where Element: Equatable {
 
+//    public
+//    static
+//    func - (array: inout Self, element: Element) {
+//        array.removeAll {
+//            $0 == element
+//        }
+//    }
+
     public
     static
-    func - (p: Self, element: Element) -> Self {
-        var copy = p
-        if let index = copy.firstIndex(of: element) {
-            copy.remove(at: index)
+    func - (array: Self, element: Element) -> Self {
+        array.filter {
+            $0 != element
         }
-
-        return copy
     }
 
 }
@@ -66,3 +59,17 @@ func - (path: IndexPath, right: (row: Int, section: Int)) -> IndexPath {
               section: max(0, path.section - right.section))
 }
 #endif
+
+
+///Sequence
+//extension Sequence {
+//
+//    public
+//    static
+//    func - (sequence: Self, element: Element) -> Self where Element: Equatable {
+//        sequence.drop {
+//            $0 == element
+//        } as! Self
+//    }
+//
+//}

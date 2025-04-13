@@ -24,9 +24,9 @@ import CoreLocation.CLLocation
 import LostMath
 import XCTest
 
-class LostMath_Tests: XCTestCase {
+class -Tests: XCTestCase {
 
-    func test_a() throws {
+    func test_Sequence() throws {
 
     }
 
