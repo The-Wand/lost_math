@@ -473,7 +473,7 @@
 					};
 				};
 			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Wand" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "LostMath" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1345,7 +1345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_2 /* Build configuration list for PBXProject "Wand" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "LostMath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_3 /* Debug */,

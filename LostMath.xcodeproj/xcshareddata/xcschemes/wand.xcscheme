@@ -17,7 +17,7 @@
                      BlueprintIdentifier = "pipe::Pipe"
                      BuildableName = "Wand.framework"
                      BlueprintName = "Wand"
-                     ReferencedContainer = "container:Wand.xcodeproj">
+                     ReferencedContainer = "container:LostMath.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "pipe::Pipe"
                BuildableName = "Wand.framework"
                BlueprintName = "Wand"
-               ReferencedContainer = "container:Wand.xcodeproj">
+               ReferencedContainer = "container:LostMath.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -53,7 +53,7 @@
             BlueprintIdentifier = "pipe::Pipe"
             BuildableName = "Wand.framework"
             BlueprintName = "Wand"
-            ReferencedContainer = "container:Wand.xcodeproj">
+            ReferencedContainer = "container:LostMath.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -65,7 +65,7 @@
                BlueprintIdentifier = "pipe::PipeTests"
                BuildableName = "WandTests.xctest"
                BlueprintName = "wandTests"
-               ReferencedContainer = "container:Wand.xcodeproj">
+               ReferencedContainer = "container:LostMath.xcodeproj">
             </BuildableReference>
             <LocationScenarioReference
                identifier = "Tokyo, Japan"
@@ -91,7 +91,7 @@
             BlueprintIdentifier = "6162624B28BC8E2B00D63EA5"
             BuildableName = "Play.app"
             BlueprintName = "Play"
-            ReferencedContainer = "container:Wand.xcodeproj">
+            ReferencedContainer = "container:LostMath.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
@@ -112,7 +112,7 @@
             BlueprintIdentifier = "6162624B28BC8E2B00D63EA5"
             BuildableName = "Play.app"
             BlueprintName = "Play"
-            ReferencedContainer = "container:Wand.xcodeproj">
+            ReferencedContainer = "container:LostMath.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
