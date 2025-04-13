@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,35 +16,19 @@
 		612EA7882C007C4200F193DC /* Any_ in Frameworks */ = {isa = PBXBuildFile; productRef = 612EA7872C007C4200F193DC /* Any_ */; };
 		613966662BE0FB0D004C18A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6162624728BC8E2B00D63EA5 /* Assets.xcassets */; };
 		613966672BE0FB14004C18A3 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162624628BC8E2A00D63EA5 /* Play.swift */; };
-		613966692BE0FB2E004C18A3 /* Wand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "pipe::Pipe::Product" /* Wand.framework */; };
-		6139666A2BE0FB2E004C18A3 /* Wand.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = "pipe::Pipe::Product" /* Wand.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		615158D32BF751EB001646EA /* All.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615158B92BF751EB001646EA /* All.swift */; };
-		615158D42BF751EB001646EA /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615158BA2BF751EB001646EA /* Any.swift */; };
-		615158D62BF751EB001646EA /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615158BC2BF751EB001646EA /* Optional.swift */; };
-		615158D82BF751EB001646EA /* Ask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615158BF2BF751EB001646EA /* Ask.swift */; };
-		615158D92BF751EB001646EA /* Asking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615158C02BF751EB001646EA /* Asking.swift */; };
-		615158DA2BF751EB001646EA /* AskingNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615158C12BF751EB001646EA /* AskingNil.swift */; };
-		615158DB2BF751EB001646EA /* Obtain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615158C32BF751EB001646EA /* Obtain.swift */; };
-		615158DF2BF751EB001646EA /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615158C92BF751EB001646EA /* Error.swift */; };
-		615158E02BF751EB001646EA /* Wanded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615158CB2BF751EB001646EA /* Wanded.swift */; };
-		615158E12BF751EB001646EA /* |.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615158CD2BF751EB001646EA /* |.swift */; };
-		615158E42BF751EB001646EA /* Wand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615158D02BF751EB001646EA /* Wand.swift */; };
-		6159FBA22C04AE2600BC7BE9 /* Expressible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6159FB9E2C04AE2600BC7BE9 /* Expressible.swift */; };
-		6159FBA32C04AE2600BC7BE9 /* log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6159FB9F2C04AE2600BC7BE9 /* log.swift */; };
-		6159FBA42C04AE2600BC7BE9 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6159FBA02C04AE2600BC7BE9 /* Memory.swift */; };
+		613966692BE0FB2E004C18A3 /* LostMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "pipe::Pipe::Product" /* LostMath.framework */; };
+		6139666A2BE0FB2E004C18A3 /* LostMath.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = "pipe::Pipe::Product" /* LostMath.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6159FBA62C04BEB200BC7BE9 /* Wand_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EA7732C007BAB00F193DC /* Wand_Tests.swift */; };
 		6159FBA72C04BEB300BC7BE9 /* Wand_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EA7732C007BAB00F193DC /* Wand_Tests.swift */; };
-		6159FBA92C04D47100BC7BE9 /* Counting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6159FBA82C04D47000BC7BE9 /* Counting.swift */; };
 		6159FBAB2C04D56F00BC7BE9 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6159FBAA2C04D56F00BC7BE9 /* Point.swift */; };
 		6159FBAC2C04D56F00BC7BE9 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6159FBAA2C04D56F00BC7BE9 /* Point.swift */; };
 		6162625628BC8E2B00D63EA5 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162624628BC8E2A00D63EA5 /* Play.swift */; };
 		6162625828BC8E2B00D63EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6162624728BC8E2B00D63EA5 /* Assets.xcassets */; };
-		6162626428BC944300D63EA5 /* Wand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "pipe::Pipe::Product" /* Wand.framework */; platformFilters = (ios, maccatalyst, macos, tvos, xros, ); };
-		6162626528BC944300D63EA5 /* Wand.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = "pipe::Pipe::Product" /* Wand.framework */; platformFilters = (ios, maccatalyst, macos, tvos, xros, ); settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6162626428BC944300D63EA5 /* LostMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "pipe::Pipe::Product" /* LostMath.framework */; platformFilters = (ios, maccatalyst, macos, tvos, xros, ); };
+		6162626528BC944300D63EA5 /* LostMath.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = "pipe::Pipe::Product" /* LostMath.framework */; platformFilters = (ios, maccatalyst, macos, tvos, xros, ); settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6172A0EC2C109E8600AF925F /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6172A0EB2C109E8600AF925F /* XCTestCase.swift */; };
 		6172A0ED2C109E8600AF925F /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6172A0EB2C109E8600AF925F /* XCTestCase.swift */; };
-		6194354C2C0DE8830034554B /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6194354B2C0DE8830034554B /* Weak.swift */; };
-		OBJ_254 /* Wand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "pipe::Pipe::Product" /* Wand.framework */; };
+		OBJ_254 /* LostMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "pipe::Pipe::Product" /* LostMath.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +69,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6139666A2BE0FB2E004C18A3 /* Wand.framework in Embed Frameworks */,
+				6139666A2BE0FB2E004C18A3 /* LostMath.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,7 +80,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6162626528BC944300D63EA5 /* Wand.framework in Embed Frameworks */,
+				6162626528BC944300D63EA5 /* LostMath.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,28 +92,13 @@
 		612EA7722C007BAB00F193DC /* Expect_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expect_Tests.swift; sourceTree = "<group>"; };
 		612EA7732C007BAB00F193DC /* Wand_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wand_Tests.swift; sourceTree = "<group>"; };
 		612EA7802C007BC600F193DC /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
-		612EA78E2C007DB600F193DC /* Package.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; name = Package.resolved; path = Wand.xcodeproj/xcuserdata/swiftpm/Package.resolved; sourceTree = "<group>"; };
+		612EA78E2C007DB600F193DC /* Package.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; name = Package.resolved; path = LostMath.xcodeproj/xcuserdata/swiftpm/Package.resolved; sourceTree = "<group>"; };
 		613966152BE0F4EF004C18A3 /* watchPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613966482BE0F87A004C18A3 /* watchPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watchPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		615158912BF74A4C001646EA /* testPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = testPlan.xctestplan; sourceTree = "<group>"; };
 		615158922BF74A4C001646EA /* watchTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = watchTestPlan.xctestplan; sourceTree = "<group>"; };
-		615158B92BF751EB001646EA /* All.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = All.swift; sourceTree = "<group>"; };
-		615158BA2BF751EB001646EA /* Any.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Any.swift; sourceTree = "<group>"; };
-		615158BC2BF751EB001646EA /* Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
-		615158BF2BF751EB001646EA /* Ask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ask.swift; sourceTree = "<group>"; };
-		615158C02BF751EB001646EA /* Asking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asking.swift; sourceTree = "<group>"; };
-		615158C12BF751EB001646EA /* AskingNil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskingNil.swift; sourceTree = "<group>"; };
-		615158C32BF751EB001646EA /* Obtain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obtain.swift; sourceTree = "<group>"; };
-		615158C92BF751EB001646EA /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
-		615158CB2BF751EB001646EA /* Wanded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wanded.swift; sourceTree = "<group>"; };
-		615158CD2BF751EB001646EA /* |.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "|.swift"; sourceTree = "<group>"; };
-		615158D02BF751EB001646EA /* Wand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wand.swift; sourceTree = "<group>"; };
 		615158E52BF7552D001646EA /* watchInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = watchInfo.plist; sourceTree = "<group>"; };
 		615158E72BF75EEC001646EA /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
-		6159FB9E2C04AE2600BC7BE9 /* Expressible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expressible.swift; sourceTree = "<group>"; };
-		6159FB9F2C04AE2600BC7BE9 /* log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = log.swift; sourceTree = "<group>"; };
-		6159FBA02C04AE2600BC7BE9 /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
-		6159FBA82C04D47000BC7BE9 /* Counting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counting.swift; sourceTree = "<group>"; };
 		6159FBAA2C04D56F00BC7BE9 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		615A968A2BF39E88003875F5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		615A968B2BF39E88003875F5 /* CONTRIB.TXT */ = {isa = PBXFileReference; lastKnownFileType = text; path = CONTRIB.TXT; sourceTree = "<group>"; };
@@ -140,19 +109,22 @@
 		6172A0EA2C109D5500AF925F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6172A0EB2C109E8600AF925F /* XCTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
 		6172A0EE2C109EB400AF925F /* INSPIRATION.TXT */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSPIRATION.TXT; sourceTree = "<group>"; };
-		6194354B2C0DE8830034554B /* Weak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
 		61ACC8832BFDF90700BF58A8 /* list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		"pipe::Pipe::Product" /* Wand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Wand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"pipe::Pipe::Product" /* LostMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LostMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"pipe::PipeTests::Product" /* WandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = WandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		614B4EF72DABB88500F4405E /* LostMath */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = LostMath; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		613966122BE0F4EF004C18A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				613966692BE0FB2E004C18A3 /* Wand.framework in Frameworks */,
+				613966692BE0FB2E004C18A3 /* LostMath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6162626428BC944300D63EA5 /* Wand.framework in Frameworks */,
+				6162626428BC944300D63EA5 /* LostMath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_254 /* Wand.framework in Frameworks */,
+				OBJ_254 /* LostMath.framework in Frameworks */,
 				612EA7882C007C4200F193DC /* Any_ in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,75 +193,12 @@
 			path = WandTests;
 			sourceTree = "<group>";
 		};
-		615158BE2BF751EB001646EA /* opts */ = {
-			isa = PBXGroup;
-			children = (
-				615158B92BF751EB001646EA /* All.swift */,
-				615158BA2BF751EB001646EA /* Any.swift */,
-				6159FBA82C04D47000BC7BE9 /* Counting.swift */,
-				615158BC2BF751EB001646EA /* Optional.swift */,
-			);
-			path = opts;
-			sourceTree = "<group>";
-		};
-		615158C22BF751EB001646EA /* Ask */ = {
-			isa = PBXGroup;
-			children = (
-				615158BE2BF751EB001646EA /* opts */,
-				615158BF2BF751EB001646EA /* Ask.swift */,
-				615158C02BF751EB001646EA /* Asking.swift */,
-				615158C12BF751EB001646EA /* AskingNil.swift */,
-			);
-			path = Ask;
-			sourceTree = "<group>";
-		};
-		615158C42BF751EB001646EA /* Obtain */ = {
-			isa = PBXGroup;
-			children = (
-				615158C32BF751EB001646EA /* Obtain.swift */,
-			);
-			path = Obtain;
-			sourceTree = "<group>";
-		};
-		615158CC2BF751EB001646EA /* Wanded */ = {
-			isa = PBXGroup;
-			children = (
-				615158C92BF751EB001646EA /* Error.swift */,
-				615158CB2BF751EB001646EA /* Wanded.swift */,
-			);
-			path = Wanded;
-			sourceTree = "<group>";
-		};
-		615158D12BF751EB001646EA /* Wand */ = {
-			isa = PBXGroup;
-			children = (
-				6159FBA12C04AE2600BC7BE9 /* |tools */,
-				615158C22BF751EB001646EA /* Ask */,
-				615158C42BF751EB001646EA /* Obtain */,
-				615158CC2BF751EB001646EA /* Wanded */,
-				615158CD2BF751EB001646EA /* |.swift */,
-				615158D02BF751EB001646EA /* Wand.swift */,
-			);
-			path = Wand;
-			sourceTree = "<group>";
-		};
 		615158D22BF751EB001646EA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				615158D12BF751EB001646EA /* Wand */,
+				614B4EF72DABB88500F4405E /* LostMath */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		6159FBA12C04AE2600BC7BE9 /* |tools */ = {
-			isa = PBXGroup;
-			children = (
-				6159FB9E2C04AE2600BC7BE9 /* Expressible.swift */,
-				6159FB9F2C04AE2600BC7BE9 /* log.swift */,
-				6159FBA02C04AE2600BC7BE9 /* Memory.swift */,
-				6194354B2C0DE8830034554B /* Weak.swift */,
-			);
-			path = "|tools";
 			sourceTree = "<group>";
 		};
 		6162624428BC8E2A00D63EA5 /* App */ = {
@@ -316,7 +225,7 @@
 		OBJ_138 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"pipe::Pipe::Product" /* Wand.framework */,
+				"pipe::Pipe::Product" /* LostMath.framework */,
 				"pipe::PipeTests::Product" /* WandTests.xctest */,
 				6162624C28BC8E2B00D63EA5 /* Play.app */,
 				613966152BE0F4EF004C18A3 /* watchPlay.app */,
@@ -401,9 +310,9 @@
 			productReference = 6162624C28BC8E2B00D63EA5 /* Play.app */;
 			productType = "com.apple.product-type.application";
 		};
-		"pipe::Pipe" /* Wand */ = {
+		"pipe::Pipe" /* LostMath */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_145 /* Build configuration list for PBXNativeTarget "Wand" */;
+			buildConfigurationList = OBJ_145 /* Build configuration list for PBXNativeTarget "LostMath" */;
 			buildPhases = (
 				OBJ_148 /* Sources */,
 				OBJ_214 /* Frameworks */,
@@ -412,9 +321,12 @@
 			);
 			dependencies = (
 			);
-			name = Wand;
+			fileSystemSynchronizedGroups = (
+				614B4EF72DABB88500F4405E /* LostMath */,
+			);
+			name = LostMath;
 			productName = Pipe;
-			productReference = "pipe::Pipe::Product" /* Wand.framework */;
+			productReference = "pipe::Pipe::Product" /* LostMath.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		"pipe::PipeTests" /* wandTests */ = {
@@ -489,7 +401,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"pipe::Pipe" /* Wand */,
+				"pipe::Pipe" /* LostMath */,
 				6162624B28BC8E2B00D63EA5 /* Play */,
 				"pipe::PipeTests" /* wandTests */,
 				613966142BE0F4EF004C18A3 /* watchPlay */,
@@ -558,22 +470,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				6194354C2C0DE8830034554B /* Weak.swift in Sources */,
-				615158E12BF751EB001646EA /* |.swift in Sources */,
-				615158E42BF751EB001646EA /* Wand.swift in Sources */,
-				615158D42BF751EB001646EA /* Any.swift in Sources */,
-				6159FBA32C04AE2600BC7BE9 /* log.swift in Sources */,
-				615158DA2BF751EB001646EA /* AskingNil.swift in Sources */,
-				615158DF2BF751EB001646EA /* Error.swift in Sources */,
-				6159FBA22C04AE2600BC7BE9 /* Expressible.swift in Sources */,
-				6159FBA42C04AE2600BC7BE9 /* Memory.swift in Sources */,
-				615158D32BF751EB001646EA /* All.swift in Sources */,
-				615158D62BF751EB001646EA /* Optional.swift in Sources */,
-				615158D92BF751EB001646EA /* Asking.swift in Sources */,
-				615158DB2BF751EB001646EA /* Obtain.swift in Sources */,
-				615158E02BF751EB001646EA /* Wanded.swift in Sources */,
-				615158D82BF751EB001646EA /* Ask.swift in Sources */,
-				6159FBA92C04D47100BC7BE9 /* Counting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,7 +496,7 @@
 		};
 		6139666C2BE0FB2E004C18A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "pipe::Pipe" /* Wand */;
+			target = "pipe::Pipe" /* LostMath */;
 			targetProxy = 6139666B2BE0FB2E004C18A3 /* PBXContainerItemProxy */;
 		};
 		6162626328BC929D00D63EA5 /* PBXTargetDependency */ = {
@@ -610,7 +506,7 @@
 		};
 		OBJ_255 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "pipe::Pipe" /* Wand */;
+			target = "pipe::Pipe" /* LostMath */;
 			targetProxy = 6162624228BC8D4400D63EA5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -619,7 +515,6 @@
 		613966242BE0F4F0004C18A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
@@ -635,7 +530,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 726;
+				CURRENT_PROJECT_VERSION = 727;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				ENABLE_PREVIEWS = YES;
@@ -679,7 +574,6 @@
 		613966252BE0F4F0004C18A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
@@ -696,7 +590,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 726;
+				CURRENT_PROJECT_VERSION = 727;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -749,7 +643,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 726;
+				CURRENT_PROJECT_VERSION = 727;
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -797,7 +691,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 726;
+				CURRENT_PROJECT_VERSION = 727;
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -827,7 +721,6 @@
 		6162625B28BC8E2B00D63EA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=appletvos*]" = tvIcon;
@@ -862,7 +755,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 726;
+				CURRENT_PROJECT_VERSION = 727;
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
@@ -915,7 +808,6 @@
 		6162625C28BC8E2B00D63EA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=appletvos*]" = tvIcon;
@@ -951,7 +843,7 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 726;
+				CURRENT_PROJECT_VERSION = 727;
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1001,7 +893,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = YES;
 				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 726;
+				CURRENT_PROJECT_VERSION = 727;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				DRIVERKIT_DEPLOYMENT_TARGET = 20.0;
@@ -1022,7 +914,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Wand;
+				PRODUCT_BUNDLE_IDENTIFIER = LostMath;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1033,7 +925,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4,6,7";
-				TARGET_NAME = Wand;
+				TARGET_NAME = LostMath;
 				TVOS_DEPLOYMENT_TARGET = 14.0;
 				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 				XROS_DEPLOYMENT_TARGET = 1.0;
@@ -1045,7 +937,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = YES;
 				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 726;
+				CURRENT_PROJECT_VERSION = 727;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				DRIVERKIT_DEPLOYMENT_TARGET = 20.0;
@@ -1066,7 +958,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Wand;
+				PRODUCT_BUNDLE_IDENTIFIER = LostMath;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1077,7 +969,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4,6,7";
-				TARGET_NAME = Wand;
+				TARGET_NAME = LostMath;
 				TVOS_DEPLOYMENT_TARGET = 14.0;
 				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 				XROS_DEPLOYMENT_TARGET = 1.0;
@@ -1087,11 +979,10 @@
 		OBJ_228 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 726;
+				CURRENT_PROJECT_VERSION = 727;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				DRIVERKIT_DEPLOYMENT_TARGET = 20.0;
@@ -1136,11 +1027,10 @@
 		OBJ_229 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 726;
+				CURRENT_PROJECT_VERSION = 727;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				DRIVERKIT_DEPLOYMENT_TARGET = 20.0;
@@ -1336,7 +1226,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_145 /* Build configuration list for PBXNativeTarget "Wand" */ = {
+		OBJ_145 /* Build configuration list for PBXNativeTarget "LostMath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_146 /* Debug */,

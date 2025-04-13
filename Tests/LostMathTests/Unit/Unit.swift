@@ -6,7 +6,7 @@
 /// you may not use this file except in compliance with the License.
 /// You may obtain a copy of the License at
 ///
-/// 1) .LICENSE
+/// 1) LICENSE file
 /// 2) https://apache.org/licenses/LICENSE-2.0
 ///
 /// Unless required by applicable law or agreed to in writing, software
@@ -19,41 +19,28 @@
 /// 2020 El Machine
 
 import Foundation
-
-import Wand
 import XCTest
 
-class Expect_Any_Tests: XCTestCase {
+/// Test Unit
+//struct Unit {
+//
+//}
 
-    func test_Any() throws {
-        let e = expectation(description: "event.any")
-        e.assertForOverFulfill = false
+extension TimeInterval {
 
-        let wand = Point.every | String.every | .any { _ in
-            e.fulfill()
-        }
-
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak wand] in
-
-            if .random() {
-                wand?.add(Point.any)
-            } else {
-                wand?.add(String.any)
-            }
-
-        }
-
-        waitForExpectations()
-    }
+    static var `default` = 4.2
 
 }
 
-extension String: Asking
-{
-    public
+///Performance
+extension [XCTMetric] {
+
     static
-    func wand<T>(_ wand: Wand, asks ask: Ask<T>) {
-        _ = wand.answer(the: ask)
-    }
+    var `default`: Self = {[
+        XCTCPUMetric(),
+        XCTClockMetric(),
+        XCTMemoryMetric(),
+        XCTStorageMetric(),
+    ]}()
 
 }

@@ -18,31 +18,17 @@
 /// Created by Alex Kozin
 /// 2020 El Machine
 
-import Foundation
 import XCTest
 
-import Wand
+/// Tools
+extension XCTestCase {
 
-/// Test Unit
-//struct Unit {
-//
-//}
+    func expectation(function: String = #function) -> XCTestExpectation {
+        expectation(description: function)
+    }
 
-extension TimeInterval {
-
-    static var `default` = 4.2
-
-}
-
-///Performance
-extension [XCTMetric] {
-
-    static
-    var `default`: Self = {[
-        XCTCPUMetric(),
-        XCTClockMetric(),
-        XCTMemoryMetric(),
-        XCTStorageMetric(),
-    ]}()
+    func waitForExpectations() {
+        waitForExpectations(timeout: .default)
+    }
 
 }

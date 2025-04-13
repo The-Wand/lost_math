@@ -15,8 +15,8 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "pipe::Pipe"
-                     BuildableName = "Wand.framework"
-                     BlueprintName = "Wand"
+                     BuildableName = "LostMath.framework"
+                     BlueprintName = "LostMath"
                      ReferencedContainer = "container:LostMath.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "pipe::Pipe"
-               BuildableName = "Wand.framework"
-               BlueprintName = "Wand"
+               BuildableName = "LostMath.framework"
+               BlueprintName = "LostMath"
                ReferencedContainer = "container:LostMath.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -51,8 +51,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "pipe::Pipe"
-            BuildableName = "Wand.framework"
-            BlueprintName = "Wand"
+            BuildableName = "LostMath.framework"
+            BlueprintName = "LostMath"
             ReferencedContainer = "container:LostMath.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
