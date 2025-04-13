@@ -63,8 +63,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "pipe::PipeTests"
-               BuildableName = "WandTests.xctest"
-               BlueprintName = "wandTests"
+               BuildableName = "PlayTests.xctest"
+               BlueprintName = "PlayTests"
                ReferencedContainer = "container:LostMath.xcodeproj">
             </BuildableReference>
             <LocationScenarioReference
