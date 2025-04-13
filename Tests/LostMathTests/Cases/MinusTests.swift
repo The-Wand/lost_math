@@ -24,10 +24,14 @@ import CoreLocation.CLLocation
 import LostMath
 import XCTest
 
-class -Tests: XCTestCase {
+class MinusTests: XCTestCase {
 
-    func test_Sequence() throws {
+    func test_Array() throws {
 
+        let sequence = [1, 2, 3, 4, 5, 6 ,7]
+        let result = sequence - 4
+
+        XCTAssertEqual([1, 2, 3, 5, 6 ,7], result)
     }
 
 }
